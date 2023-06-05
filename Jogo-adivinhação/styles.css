@@ -21,6 +21,19 @@ body, input, button {
     font-family: 'DM Sans', sans-serif;
 }
 
+button {
+    background-color: #80b0ff;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 .4rem .4rem 0;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+button:hover {
+    background-color: #5f9dff;
+}
+
 
 main {
     background: #FFFFFF;
@@ -31,6 +44,12 @@ main {
     width: min(42.8rem, 90%);
     margin-top: -12rem;
     text-align: center;
+}
+
+/*screen 1 */
+
+.hide {
+    display: none;
 }
 
 h1 {
@@ -63,9 +82,15 @@ input {
     border-radius: .4rem 0 0 .4rem;
 }
 
-button {
-    background-color: #80b0ff;
-    color: white;
-    font-weight: bold;
-    border-radius: 0 .4rem .4rem 0;
+
+
+/*scrren2*/
+
+h2{
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+}
+
+.buttonWin {
+    border-radius: .4rem;
 }
