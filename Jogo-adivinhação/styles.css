@@ -17,6 +17,10 @@ body {
     height: 100vh;
 }
 
+body, input, button {
+    font-family: 'DM Sans', sans-serif;
+}
+
 
 main {
     background: #FFFFFF;
@@ -26,4 +30,42 @@ main {
 
     width: min(42.8rem, 90%);
     margin-top: -12rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+    color:  #80b0ff;
+}
+
+p {
+    color:  #80a2ff;
+    opacity: 0.8;
+}
+
+form {
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+input, button {
+    border: none;
+    padding: 1.6rem;
+}
+
+input {
+    background-color: rgb(230, 227, 227);
+    width: 6rem;
+    font-weight: bold;
+    border-radius: .4rem 0 0 .4rem;
+}
+
+button {
+    background-color: #80b0ff;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 .4rem .4rem 0;
 }
